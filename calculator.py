@@ -64,6 +64,7 @@ def set_theme(theme):
 root = tk.Tk()
 root.title("Calculator")
 root.geometry("400x600")
+root.iconbitmap("calculator.ico")
 
 display = tk.Entry(root, font=("Arial", 24), justify="right")
 display.grid(row=0, column=0, columnspan=4, padx=10, pady=10)
